@@ -18,8 +18,8 @@ def load_models():
     cls_path = "models/mera_net.h5"
 
     # 🔽 REPLACE THESE WITH YOUR ACTUAL GOOGLE DRIVE FILE IDs
-    SEG_FILE_ID = "PUT_YOUR_SEG_MODEL_FILE_ID_HERE"
-    CLS_FILE_ID = "PUT_YOUR_CLS_MODEL_FILE_ID_HERE"
+    SEG_FILE_ID = "https://drive.google.com/file/d/1dYq3xITtH7TZa9bZkZorjdn2Va-Zi3Mo/view?usp=drive_link"
+    CLS_FILE_ID = "https://drive.google.com/file/d/1Pxdexh6JGNOyEG-OIZP2idgXUbiARAxK/view?usp=drive_link"
 
     if not os.path.exists(seg_path):
         st.info("⬇️ Downloading segmentation model...")
